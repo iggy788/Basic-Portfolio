@@ -48,19 +48,12 @@ a {
 	text-decoration: none;
 }
 
-ul.images {
-	list-style: none;
-	margin: 10px;
-	padding: 0;
-	text-decoration: none;
-}
-
-ul.icons {
+ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	text-decoration: none;
 }
-
 
 li {
 	float: left;
@@ -85,8 +78,8 @@ li.icon {
 }
 
 ul li.images {
-	width: 60px;
-	height: 60px;
+	width: 600px;
+	height: 200px;
 	padding: 0px;
 	position: relative;
 	top: 10px;
@@ -166,63 +159,25 @@ footer {
 	overflow: auto;
 }
 
-/*
-.project img {
-	position: relative;
-	text-align: center;
-	top: 30px;
-	margin-left: 125px;
-	margin-bottom: 50px;
-	clear: both;
-	float: none;
-	text-align: center;
-	margin-right: 20px;
-	width: 250x;
-	height: 100px;
-}
-*/
-
-/*
-img.project {
-	content: "";
-    clear: both;
-	border: none;
-    width: 250px;
-    height: 160px;
-    align-content: center;
-    padding: 25px;
-	margin-right: 75px;
-	margin-top: -50px;
-	border: 1px;
-	height: 100%;
-	width: 270px;
-	margin-left: 75px;
-	margin-bottom: 0px;
-	vertical-align: middle;
-	overflow: auto;
-}
-*/
-
 .images {
 	clear: both;
-	height: 50px;
+	height: 150px;
 	left: 40px;
 	position: relative;
-	width: 20px;
+	width: 220px;
 }
 
 .project-title {
     text-align: center;
-    font-size: 24px;
+    font-size: 14px;
     background-color: #4aaaa5;
     font-weight: bold;
     color: #ffffff;
     position: relative;
-    left: 39px;
+    left: 10px;
     margin-left: 30px;
-    padding: 9px;
-    width: 202px;
-    height: 30px;
+    padding: 0px;
+    width: 270px;
 }
 
 .clearfix {
@@ -249,6 +204,7 @@ img.project {
 .box {
 	border-right: none;
 	width: 250px;
+	height: 125px;
 	margin: 0px;
 	top: 10px;
 }
@@ -263,7 +219,6 @@ img.project {
     top: 0px;
     margin-top: 0px;
     margin-left: 0px;
-    background-color: #ffffff;
 
 }
 
@@ -275,8 +230,6 @@ img.project {
     top: 30px;
     margin-right: 275px;
     margin-top: 0px;
-    background-color: #ffffff;
-}
 
 
 /* id selector */
