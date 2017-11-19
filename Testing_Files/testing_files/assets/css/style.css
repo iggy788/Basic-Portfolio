@@ -1,0 +1,252 @@
+/* Some default document settings. */
+
+/* <body> */
+body {
+	color: #777777;
+	font-family: 'Shadows Into Light', cursive;
+	line-height: 30px;
+	text-align: left;
+	background-image: url("old_moon_@2X.jpg");
+    background-color: #ffffff;
+}
+
+/* <div class="h1-container"> */
+.h1-container {
+    background-color: #ffffff;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+/* <h1> */
+h1	{
+	float: left;
+	background-color: #4aaaa5;
+	border-bottom: 2px;
+	color: #ffffff;
+	height: 100%;
+	width: 270px;
+	margin-left: 125px;
+	margin-bottom: 0px;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	vertical-align: middle;
+	padding-top: 15px;
+}
+
+/* <nav> */
+nav	{
+	width: 270px;
+	float: right;
+	text-align: center;
+	margin-right: 125px;
+	margin-bottom: 0px;
+	padding-top: 30px;
+	display: inline;
+}
+
+/* <ul>...</ul> */
+li.border {
+	border-right: 1px solid #dddddd;
+    line-height: 15px;
+}
+
+/* <li class="border"></li> */
+li {
+	float: left;
+	width: 33%;
+	padding: 0px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* div class ="main-container"> */
+.main-container {
+	border-bottom: 2px solid #4aaaa5;
+	background-color: #ffffff;
+	background-image: url("../images/old_moon.png");
+	height: 600px;
+	width: 100%;
+	clear: both;
+	overflow: auto;
+	margin: 0 auto;
+}
+
+
+/* section id="main-bio","contact-form","#project-portfolio","#bio-image","#contact-form","#project-portfolio">...</section> -->*/
+#main-bio,
+#contact-form,
+#project-portfolio {
+	position: relative;
+	text-align: left;
+	width: 750px;
+	top: 30px;
+	margin-left: 125px;
+	margin-bottom: 50px;
+	padding: 15px;
+	height: 700px;
+}
+
+#main-bio {
+	height: auto;
+	padding: 20px;
+}
+
+#bio-image {
+	clear: both;
+	float: left;
+	margin-right: 20px;
+	width: 250x;
+	height: 300px;
+}
+
+#contact-form {
+	padding: 20px;
+	height: 500px;
+}
+
+/* section id="social-links">...</section> */ 
+section	{
+	background-color: #ffffff;
+	float: left;
+	color: #777777;
+	border: 2px solid #dddddd;
+}
+
+#social-links {
+    float: right;
+    text-align: center;
+    padding: 20px;
+    width: 180px;
+    top: 30px;
+    margin-right: 125px;
+    margin-top: 30px;
+}
+
+
+.icon {
+	width: 60px;
+	height: 60px;
+	color: none;
+	border-right: none;
+}
+
+/* Rotates social icon in contacts on hover. */
+.icon:hover {
+	transform: rotate(-25deg);
+	-ms-transform: rotate(-25deg);
+	-webkit-transform: rotate(-25deg);
+	-moz-transform: rotate(-25deg);
+	-o-transform: rotate(-25deg);
+}
+
+/* img class="project" */
+
+li.img {
+    line-height: 0px;
+    text-align: center;
+    width: 250px;
+	height: 100px;
+	margin: 45px;
+}
+
+li.project-img {
+	position: relative;
+	top: 30px;
+	margin-left: 160px;
+	margin-bottom: 50px;
+	clear: both;
+	float: none;
+	margin-right: 15px;
+	width: 250x;
+	height: 100px;
+}
+
+.project-title{
+	background-color: #4aaaa5;
+	position: relative;
+	border-bottom: 2px;
+	color: #ffffff;
+	height: 50%;
+    width: 270px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: none;
+    vertical-align: middle;
+    padding-top: 15px;
+    align-content: center;
+}
+
+/*
+.project img {
+	position: relative;
+	text-align: center;
+	top: 30px;
+	margin-left: 125px;
+	margin-bottom: 50px;
+	clear: both;
+	float: none;
+	text-align: center;
+	margin-right: 20px;
+	width: 250x;
+	height: 100px;
+}
+*/
+
+/*
+img.project {
+	content: "";
+    clear: both;
+	border: none;
+    width: 250px;
+    height: 160px;
+    align-content: center;
+    padding: 25px;
+	margin-right: 75px;
+	margin-top: -50px;
+	border: 1px;
+	height: 100%;
+	width: 270px;
+	margin-left: 75px;
+	margin-bottom: 0px;
+	vertical-align: middle;
+	overflow: auto;
+}
+*/
+
+h2,
+h3	{
+	color: #4aaaa5;
+	border-bottom:	3px solid #dddddd;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin-top: 1px;
+	padding-bottom: 3px;
+}
+
+
+a {
+	color: #777777;
+	text-decoration: none;
+}
+
+footer {
+	clear: both;
+	margin: 0 auto;
+	vertical-align: middle;
+	padding: 18px;
+	height: 70px;
+	background-color: #666666;
+	width: 100%;
+	border-bottom: none;
+	color: #ffffff;
+	text-align: center;
+}
+
+
+
